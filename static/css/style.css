@@ -1,0 +1,45 @@
+body {
+  background: #ffffff;
+  color: #202020;
+  font-family: "Edelsans", sans-serif;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+textarea {
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+
+#morse-raw-input {
+  width: 90%;
+  height: 200px;
+}
+
+#morse-converted-input {
+  width: 90%;
+  height: 200px;
+}
