@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var letter = "";
     if (signal === "." || signal === "-") {
       signalStack += signal;
-    } else if (signal === " ") {
+    } else if (signal === " " || signal === "\n") {
       if (signalStack === "") {
         letter = " ";
       } else {
